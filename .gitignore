@@ -2,3 +2,4 @@ public/
 protected/runtime/*
 .idea/*
 assets/*
+*.sublime-*
