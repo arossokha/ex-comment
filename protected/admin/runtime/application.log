@@ -1,0 +1,663 @@
+2012/08/24 19:00:01 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php:318
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php(198): YiiBase::import('admin.AdminModu...', true)
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CModule.php(283): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(331): CModule->getModule('admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(270): CWebApplication->createController('admin/admin')
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:00:59 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php:318
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php(198): YiiBase::import('admin.AdminModu...', true)
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CModule.php(283): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(331): CModule->getModule('admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(270): CWebApplication->createController('admin/admin')
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:01:00 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php:318
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php(198): YiiBase::import('admin.AdminModu...', true)
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CModule.php(283): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(331): CModule->getModule('admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(270): CWebApplication->createController('admin/admin')
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:01:00 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php:318
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php(198): YiiBase::import('admin.AdminModu...', true)
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CModule.php(283): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(331): CModule->getModule('admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(270): CWebApplication->createController('admin/admin')
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:01:00 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php:318
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php(198): YiiBase::import('admin.AdminModu...', true)
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CModule.php(283): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(331): CModule->getModule('admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(270): CWebApplication->createController('admin/admin')
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:01:00 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php:318
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php(198): YiiBase::import('admin.AdminModu...', true)
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CModule.php(283): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(331): CModule->getModule('admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(270): CWebApplication->createController('admin/admin')
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:01:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:01:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:02:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:03:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:04:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:04:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:04:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:04:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:04:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:04:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:04:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:04:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:04:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('admin')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('admin')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/admin')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin
+---
+2012/08/24 19:04:37 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (/home/artem/htdocs/yii-1.1.10.r3566/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/artem/htdocs/cms/protected/admin/controllers/AdminController.php(94): spl_autoload_call()
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(134): AdminController->runAction()
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CInlineFilter.php(59): AdminController->filterAccessControl()
+#7 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(292): CFilterChain->run()
+#9 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(266): AdminController->runActionWithFilters()
+#10 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): AdminController->run()
+#11 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#12 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/artem/htdocs/cms/backend.php(13): CWebApplication->run()
+REQUEST_URI=/admin/login
+in /home/artem/htdocs/cms/protected/admin/controllers/AdminController.php (94)
+in /home/artem/htdocs/cms/backend.php (13)
+2012/08/24 19:04:54 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:879
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(783): CController->renderPartial('login', Array, true)
+#1 /home/artem/htdocs/cms/protected/admin/controllers/AdminController.php(109): CController->render('login', Array)
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/actions/CInlineAction.php(50): AdminController->actionLogin()
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#6 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(292): CFilterChain->run()
+#10 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('login')
+#12 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/login')
+#13 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/login
+---
+2012/08/24 19:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "setttt".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('setttt')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('setttt')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/setttt')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/setttt
+---
+2012/08/24 19:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "setttt".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('setttt')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('setttt')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/setttt')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/setttt
+---
+2012/08/24 19:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "setttt".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('setttt')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('setttt')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/setttt')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/setttt
+---
+2012/08/24 19:08:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(292): CFilterChain->run()
+#6 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('logout')
+#8 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/logout')
+#9 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/logout
+---
+2012/08/24 19:14:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(292): CFilterChain->run()
+#6 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('logout')
+#8 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/logout')
+#9 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/logout
+---
+2012/08/24 19:15:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(292): CFilterChain->run()
+#6 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('logout')
+#8 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/logout')
+#9 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/logout
+---
+2012/08/24 19:15:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(292): CFilterChain->run()
+#6 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('logout')
+#8 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/logout')
+#9 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/logout
+---
+2012/08/24 19:15:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(292): CFilterChain->run()
+#6 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('logout')
+#8 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/logout')
+#9 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/logout
+---
+2012/08/24 19:15:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(292): CFilterChain->run()
+#6 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('logout')
+#8 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/logout')
+#9 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/logout
+---
+2012/08/24 19:15:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(292): CFilterChain->run()
+#6 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('logout')
+#8 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/logout')
+#9 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/logout
+---
+2012/08/24 19:15:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(292): CFilterChain->run()
+#6 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('logout')
+#8 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/logout')
+#9 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/logout
+---
+2012/08/24 19:17:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
+2012/08/24 19:17:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
+2012/08/24 19:17:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
+2012/08/24 19:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
+2012/08/24 19:18:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
+2012/08/24 19:18:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
+2012/08/24 19:18:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
+2012/08/24 19:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
+2012/08/24 19:18:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
+2012/08/24 19:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
+2012/08/24 19:18:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
+2012/08/24 19:18:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('test')
+#1 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('test')
+#2 /home/artem/htdocs/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('admin/test')
+#3 /home/artem/htdocs/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/artem/htdocs/cms/backend.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/test
+---
