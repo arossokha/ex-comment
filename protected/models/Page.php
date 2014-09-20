@@ -6,6 +6,7 @@
  * The followings are the available columns in table 'Page':
  * @property integer $pageId
  * @property string $path
+ * @property string $title
  * @property string $text
  * @property string $updated_timestamp
  * @property string $created_timestamp
@@ -38,9 +39,10 @@ class Page extends ActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('path, text', 'required'),
-			array('path', 'unique'),
-			array('path', 'length', 'max' => 100),
+			array('title, text', 'required'),
+			// array('path', 'unique'),
+			// array('path', 'length', 'max' => 100),
+			array('title', 'length', 'max' => 1000),
 			array('text, created_timestamp', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -67,6 +69,7 @@ class Page extends ActiveRecord
 		return array(
 			'pageId' => 'Page',
 			'path' => 'Path',
+			'title' => 'Title',
 			'text' => 'Text',
 			'updated_timestamp' => 'Updated Timestamp',
 			'created_timestamp' => 'Created Timestamp',
@@ -85,12 +88,25 @@ class Page extends ActiveRecord
 		$criteria = new CDbCriteria;
 
 		$criteria->compare('pageId', $this->pageId);
-		$criteria->compare('path', $this->path, true);
+		$criteria->compare('title', $this->path, true);
 		$criteria->compare('text', $this->text, true);
-		$criteria->compare('updated_timestamp', $this->updated_timestamp, true);
+		// $criteria->compare('updated_timestamp', $this->updated_timestamp, true);
 		//		$criteria->compare('created_timestamp',$this->created_timestamp,true);
 
 		return new ActiveDataProvider($this, array(
+												  'criteria' => $criteria,
+											 ));
+	}
+
+	public function getCommentProvider() {
+
+		$criteria = new CDbCriteria;
+
+		$criteria->compare('pageId', $this->pageId);
+		$criteria->compare('title', $this->text, true);
+		$criteria->compare('text', $this->text, true);
+
+		return new ActiveDataProvider(Comment::model(), array(
 												  'criteria' => $criteria,
 											 ));
 	}
@@ -102,8 +118,8 @@ class Page extends ActiveRecord
 				'class' => 'application.admin.components.behaviours.AdminBehavior',
 				'fields' => array(
 					array(
-						'name' => 'Путь',
-						'attribute' => 'path',
+						'name' => 'Название',
+						'attribute' => 'title',
 						'type' => 'text',
 					),
 					array(
@@ -114,7 +130,7 @@ class Page extends ActiveRecord
 				),
 				'columns' => array(
 					'pageId',
-					'path'
+					'title'
 				)
 			)
 		);

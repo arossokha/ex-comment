@@ -227,3 +227,24 @@ div.search-form
 {
 	background: #80CFFF;
 }
+
+.comment-block {
+	padding-top: 10px;
+	border-top: 1px solid #4B4B4B;
+}
+
+.comment-block .list {
+	margin-bottom: 20px;
+}
+
+.comment {
+    border-bottom: 1px solid #FFD324;
+}
+
+.comment .title {
+	padding: 2px;
+}
+
+.comment .body {
+	padding-left: 20px;
+}

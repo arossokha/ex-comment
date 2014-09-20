@@ -27,8 +27,10 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		
+		$model = new Page();
+
 		$this->render('index', array(
+			'model' => $model
 		));
 	}
 
@@ -206,44 +208,6 @@ class SiteController extends Controller
 		}
 	}
 
-	public function actionCity()
-	{
-		$term = Yii::app()->getRequest()->getParam('term');
-
-		if (Yii::app()->request->isAjaxRequest && $term) {
-			$criteria = new CDbCriteria;
-			$term = Yii::app()->db->quoteValue($term.'%');
-			$criteria->addCondition("name LIKE {$term}");
-			$criteria->limit = 10;
-			$cities = City::model()->findAll($criteria);
-			$result = array();
-			foreach ($cities as $city) {
-				$result[] = array('cityId' => $city['cityId'], 'label' => $city['name'] . ',' . Region::getNameById($city['regionId']) . ',' . Country::getNameById($city['countryId']));
-			}
-			echo CJSON::encode($result);
-			Yii::app()->end();
-		}
-	}
-
-	public function actionRegion()
-	{
-		$term = Yii::app()->getRequest()->getParam('term');
-
-		if (Yii::app()->request->isAjaxRequest && $term) {
-			$criteria = new CDbCriteria;
-
-			$criteria->addSearchCondition('name', $term);
-			$criteria->limit = 10;
-			$regions = Region::model()->findAll($criteria);
-			$result = array();
-			foreach ($regions as $region) {
-				$result[] = array('regionId' => $region['regionId'], 'label' => $region['name'] . ',' . Country::getNameById($region['countryId']));
-			}
-			echo CJSON::encode($result);
-			Yii::app()->end();
-		}
-	}
-
 	public function actionFeedback()
 	{
 
@@ -299,7 +263,6 @@ class SiteController extends Controller
 		} else {
 			$message = "Невалидный код подтверждения";
 		}
-
 	}
 
 }

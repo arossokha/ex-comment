@@ -19,13 +19,9 @@
  * @property string $password
  * @property string $salt
  * @property integer $role
- * @property integer $scopeOfActivityId
  * @property integer $cityId
- * @property integer $patternsOfOwnershipId
  * @property string $address
- * @property string $companyName
  * @property string $info
- * @property string $tin
  * @property integer $confirmed
  * @property string $confirmCode
  * @property integer $active
@@ -34,12 +30,6 @@
  */
 class User extends ActiveRecord
 {
-
-	/**
-	 * role types
-	 */
-	const ROLE_PHYSICAL_FACE = 0;
-	const ROLE_JURIDICAL_FACE = 1;
 
 	/**
 	 * Returns the static model of the specified AR class.
@@ -67,11 +57,11 @@ class User extends ActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('password, name, scopeOfActivityId, cityId, lastName, phone, email', 'required', 'on' => 'physical'),
-			array('password, patternsOfOwnershipId, workPhone, address, companyName, tin, name, scopeOfActivityId, cityId, lastName, phone, email', 'required', 'on' => 'juridical'),
+			array('password, name, cityId, lastName, phone, email', 'required', 'on' => 'physical'),
+			array('password, workPhone, address, name, cityId, lastName, phone, email', 'required', 'on' => 'juridical'),
 
-			array('role, scopeOfActivityId, cityId, patternsOfOwnershipId, active', 'numerical', 'integerOnly' => true),
-			array('name, lastName, patronymic, icq, login, tin', 'length', 'max' => 20),
+			array('role, cityId, active', 'numerical', 'integerOnly' => true),
+			array('name, lastName, patronymic, icq, login', 'length', 'max' => 20),
 			array('phone, workPhone, fax', 'length', 'max' => 30),
 
 			array('skype, email', 'length', 'max' => 50),
@@ -81,14 +71,13 @@ class User extends ActiveRecord
 			array('email', 'email'),
 			array('email', 'unique'),
 			array('phone, workPhone, fax', 'match', 'pattern' => '/^(\s|\d)+$/', 'message' => 'В номере должны быть указаны только цифры'),
-			array('tin', 'unique'),
 			//			array('password', 'length', 'max'=>40),
 			//			array('salt', 'length', 'max'=>100),
-			array('address, companyName', 'length', 'max' => 250),
+			array('address', 'length', 'max' => 250),
 			array('info, confirmCode, confirmed, password', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('orderBy, userId, name, lastName, patronymic, phone, workPhone, fax, icq, skype, email, login, password, salt, role, scopeOfActivityId, cityId, patternsOfOwnershipId, address, companyName, info, tin, active', 'safe', 'on' => 'search'),
+			array('orderBy, userId, name, lastName, patronymic, phone, workPhone, fax, icq, skype, email, login, password, salt, role, cityId, address, info, active', 'safe', 'on' => 'search'),
 		);
 	}
 
@@ -100,10 +89,7 @@ class User extends ActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'city' => array(self::BELONGS_TO, 'City', 'cityId'),
-			'scopeOfActivity' => array(self::BELONGS_TO, 'ScopeOfActivity', 'scopeOfActivityId'),
-			'patternsOfOwnership' => array(self::BELONGS_TO, 'PatternsOfOwnership', 'patternsOfOwnershipId'),
-			'transport' => array(self::HAS_MANY, 'MyTransport', 'userId'),
+
 		);
 	}
 
@@ -111,8 +97,7 @@ class User extends ActiveRecord
 	public function scopes()
 	{
 		return array(
-			'juridical' => array('condition' => 'role = :r', 'params' => array(':r' => self::ROLE_JURIDICAL_FACE)),
-			'physical' => array('condition' => 'role = :r', 'params' => array(':r' => self::ROLE_PHYSICAL_FACE)),
+
 		);
 	}
 
@@ -137,20 +122,14 @@ class User extends ActiveRecord
 			'password' => 'Пароль',
 			'salt' => 'Хэш',
 			'role' => 'Роль',
-			'scopeOfActivityId' => 'Сфера деятельности',
 			'cityId' => 'Город',
-			'patternsOfOwnershipId' => 'Форма собственности',
 			'address' => 'Адрес',
-			'companyName' => 'Название компании',
 			'info' => 'Описание',
-			'tin' => 'ИНН',
 			'active' => 'Active',
 			'updated_timestamp' => 'Updated Timestamp',
 			'created_timestamp' => 'Created Timestamp',
 		);
 	}
-
-	public $orderBy = null;
 
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
@@ -177,35 +156,10 @@ class User extends ActiveRecord
 		$criteria->compare('User.password', $this->password, true);
 		$criteria->compare('User.salt', $this->salt, true);
 		$criteria->compare('User.role', $this->role);
-		$criteria->compare('User.scopeOfActivityId', $this->scopeOfActivityId);
 		$criteria->compare('User.cityId', $this->cityId);
-		$criteria->compare('User.patternsOfOwnershipId', $this->patternsOfOwnershipId);
 		$criteria->compare('User.address', $this->address, true);
-		$criteria->compare('User.companyName', $this->companyName, true);
 		$criteria->compare('User.info', $this->info, true);
-		$criteria->compare('User.tin', $this->tin, true);
 		$criteria->compare('User.active', $this->active);
-
-		if ( $this->orderBy ) {
-			switch ($this->orderBy) {
-				case 'desc' :
-					{
-					if ( $this->role == self::ROLE_JURIDICAL_FACE ) {
-						$criteria->order = 'User.companyName desc';
-					} else {
-						$criteria->order = 'User.name desc';
-					}
-					}
-					break;
-				case 'asc' :
-				default:
-					if ( $this->role == self::ROLE_JURIDICAL_FACE ) {
-						$criteria->order = 'User.companyName asc';
-					} else {
-						$criteria->order = 'User.name asc';
-					}
-			}
-		}
 
 		return new ActiveDataProvider($this, array(
 												  'criteria' => $criteria,
@@ -214,14 +168,6 @@ class User extends ActiveRecord
 
 	public function beforeValidate()
 	{
-		if ( $this->role == self::ROLE_PHYSICAL_FACE ) {
-			$this->setScenario('physical');
-		} elseif ( $this->role == self::ROLE_JURIDICAL_FACE ) {
-			$this->setScenario('juridical');
-		} else {
-			throw new CException('Not available role');
-		}
-
 		foreach (array('phone', 'fax', 'workPhone') as $attr) {
 			if ( is_array($this->$attr) ) {
 				foreach ($this->$attr as $k => &$it) {
@@ -257,46 +203,6 @@ class User extends ActiveRecord
 		return parent::beforeValidate();
 	}
 
-	public function getFavoriesCount()
-	{
-
-		return count(Favorite::model()->findAllBySql('
-		select f.* FROM Favorite `f`
-		LEFT JOIN Tender ON tenderId = modelId AND modelName=\'Tender\'
-		LEFT JOIN Transport ON transportId = modelId AND modelName=\'Transport\'
-		LEFT JOIN Cargo ON cargoId = modelId AND modelName=\'Cargo\'
-		LEFT JOIN User ON User.userId = modelId AND modelName=\'User\'
-		where
-		f.userId = :u AND (
-			NOT ISNULL( tenderId )
-			OR NOT ISNULL( cargoId )
-			OR NOT ISNULL( User.userId )
-			OR NOT ISNULL( transportId )
-		)', array(
-				 ':u' => Yii::app()->user->id)
-		));
-	}
-
-	public function getTransportCount()
-	{
-		return MyTransport::model()->count();
-	}
-
-	public function getOrdersCount(){
-			$sql = "select count(*) from (
-			select cargoId as `key`,created_timestamp,userId,'Cargo' as modelName, 'Груз' as `name` from Cargo where userId = {$this->userId}
-			AND active = 1
-			UNION
-			select transportId,created_timestamp,userId,'Transport','Транспорт' from Transport where userId = {$this->userId}
-			AND type = '0' AND active = 1
-			UNION
-			select tenderId,created_timestamp,userId,'Tender', 'Тендер' from Tender where userId = {$this->userId} AND active = 1
-		) t";
-
-		$r = Yii::app()->db->createCommand($sql)->queryRow(false);
-		return $r[0];
-	}
-
 	public function confirmRegistration()
 	{
 		$this->confirmed = 1;
@@ -308,7 +214,7 @@ class User extends ActiveRecord
 	public function getName()
 	{
 		if ( $this->role == self::ROLE_JURIDICAL_FACE ) {
-			return $this->patternsOfOwnership->name . ' "' . $this->companyName . '"';
+			return $this->patternsOfOwnership->name . ' "' . $this . '"';
 		}
 		return $this->lastName . ' ' . $this->name . ' ' . $this->patronymic;
 	}

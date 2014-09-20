@@ -42,7 +42,6 @@ class Controller extends CController
 			),
 		);
 		$cs->registerCoreScript('jquery.ui');
-		Yii::app()->clientScript->registerScriptFile('/js/uniform.js', CClientScript::POS_HEAD);
 		Yii::app()->clientScript->registerScriptFile('/js/main.js', CClientScript::POS_HEAD);
 
 		return parent::init();

@@ -8,7 +8,8 @@
 return array(
 	'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
 	'name' => 'template',
-	'sourceLanguage' => 'ru',
+	'sourceLanguage' => 'en',
+	'defaultController' => 'page',
 
 	// preloading 'log' component
 	'preload' => array('log'),

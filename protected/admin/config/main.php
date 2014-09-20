@@ -85,36 +85,13 @@ return array(
 					'importPath' => 'application.admin.models.*',
 					'model' => array('class' => 'Settings')
 				),
-				
 				array(
-					'name' => 'FAQ',
-					'path' => 'faq',
+					'name' => 'Страницы',
 					'class' => 'ModelManagerWidget',
+					'path' => 'pages',
 					'importPath' => 'application.models.*',
-					'model' => 'Faq',
+					'model' => 'Page'
 				),
-				array(
-					'name' => 'Города',
-					'path' => 'city',
-					'class' => 'ModelManagerLimiterWidget',
-					'importPath' => 'application.models.*',
-					'model' => 'City',
-				),
-				
-								array(
-									'name' => 'Администраторы',
-									'path' => 'user',
-									'class' => 'ModelManagerWidget',
-									'importPath' => 'application.admin.models.*',
-									'model' => 'AdminUser',
-								),
-								array(
-									'name' => 'Страницы',
-									'class' => 'ModelManagerWidget',
-									'path' => 'pages',
-									'importPath' => 'application.models.*',
-									'model' => 'Page'
-								),
 			),
 		)
 	),

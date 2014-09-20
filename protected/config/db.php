@@ -1,9 +1,9 @@
 <?php
 
 return array(
-	'connectionString' => 'mysql:host=localhost;dbname=template',
+	'connectionString' => 'mysql:host=localhost;dbname=excomment',
 	'emulatePrepare' => true,
-	'username' => 'template',
-	'password' => 'template',
+	'username' => 'excomment',
+	'password' => 'excomment',
 	'charset' => 'utf8',
 );
